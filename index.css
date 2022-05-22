@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+#hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(media/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}   
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    height: 65px;
+    width: 65px;
+    background: transparent;
+    border: 3px solid #efefef;
+    color:#efefef;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.logo a:hover{
+    color: cornflowerblue;
+    border: 3px solid cornflowerblue;
+    transition: .4s;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: #efefef;
+    margin-left: 55px;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav .nav-list li a:hover{
+    color: cornflowerblue;
+    transition: .4s;
+}
+.container{
+    padding-top: 200px;
+}
+.container .hero-text{
+    color: #efefef;
+}
+.container .hero-text h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.name{
+    color: cornflowerblue;
+}
+.subname{
+    font-size: 1rem;
+}
+
+/*        hago social pero faltan mas cosas          */
+#contact h1{
+    font-size: 3rem;
+    color: rgba(0,0,0,0.8);
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.social a{
+    min-width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color: #efefef;
+    cursor: pointer;
+    margin: 20px 25px 0 5px;
+    background-color: rgba(0,0,0,0.8);
+}
+.social p{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.8);
+    font-weight: 500;
+}
+footer{
+    background-color: rgba(245,245,245,0.9);
+    padding: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
