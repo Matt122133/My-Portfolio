@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MTF's Portfolio</title>
+    <title>Mateo's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
     <section id="hero">
-        <div class="main">
             <header>
-                <div class="logo">
-                    <a href="#hero"> MTF </a>
+                <div class="header-container">
+                    <div class="logo">
+                        <a href="#hero"> MTF </a>
+                    </div>
+                    <nav>
+                        <ul class="nav-list">    
+                            <li><a href="#about">About me</a></li>
+                            <li><a href="#projects">My projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                    <ul class="nav-list">    
-                        <li><a href="#about">About me</a></li>
-                        <li><a href="#">My projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
             </header>
-
-            <div class="container">
-                <div class="hero-text">
-                    <h3>Hi,</h3>
-                    <h1>I'm <span class="name">Mateo Tambasco</span> <span class="subname">Full-stack student</span> </h1>
-                </div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <h3>Hi,</h3>
+                <h1>I'm <span class="name">Mateo Tambasco</span> <span class="subname">Full-stack developer Jr.</span> </h1>
             </div>
         </div>
     </section>
@@ -40,35 +39,75 @@
     <section id="about">
         <div class="about-container">
             <h1>About me: </h1>
-            <h2>I'm full-stack student.</h2>
-            <p>I'm currently studing computer technologist and also takin a programming course called Jovenes a Programas (JaP).</p>
-        </div>
-        <div class="skill-container">
-            <h1>Skills:</h1>
-
+            <div class="about-grid">
+                <div class="about-description">
+                    <h2 class="about-h2">I'm <span class="name">Mateo Tambasco</span></h2>
+                    <p>I'm currently studying Computer Technologist, i'm on my second year and also takin a programming course called Jovenes a Programas (JaP).</p>
+                    <p>Aldo i don't have any job experience, i already do some projects for Computer Technologist.</p>
+                    <p>I'm looking fordware to improve my skills and finally becoming an excelent developer.</p>
+                    <p>Now i'm learning about HTML and CSS on my own, and soon i'll start with JavaScript.</p>
+                </div>
+                <div class="skill-container">
+                    <h2 class="skill-title">My skills:</h2>
+                    <div class="item"> 
+                        <img src="../media/c-c++_icon-.png" alt="Lenguaje de programacion C++">
+                        <div class="item-name">C/C++</div>
+                    </div>
+                    <div class="item"> 
+                        <img src="../media/mysq_icon.png" alt="Lenguaje SQL">
+                        <div class="item-name">MYSQL</div>  
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects">
-
+        <div class="project-container">
+            <h1 class="project-tittle">My projects:</h1>
+            <div class="project-card">
+                <figure>
+                    <img src="#">
+                </figure>
+                <div class="project-card_contenido">
+                    <h2>Proyecto-PaV-</h2>
+                    <p>This project is about creating a system to collect players and videogames in order to let the players creat a new games wich could be single player o multiplayer, in any videogame they want. </p>
+                    <p>We are currently doing this project in OOP c++.</p>
+                    <a href="https://github.com/Aguslopez7/PAV-Laboratorio1-2022" target="_blank">See code in GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <figure>
+                    <img src="#">
+                </figure>
+                <div class="project-card_contenido">
+                    <h2>Proyecto-EDA-</h2>
+                    <p>This project is about creating a system to collect players and videogames in order to let the players creat a new games wich could be single player o multiplayer, in any videogame they want. </p>
+                    <p>We did this project in c++.</p>
+                    <a href="https://github.com/Aguslopez7/EDA-Obligatorio-2021" target="_blank">See code in GitHub</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
-        <h1>Contact</h1>
-        <div class="social">
-            <div class="sc-item">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <p>Contact me</p>
-            </div>
-            <div class="sc-item">
-                <a href="#"><i class="fa-brands fa-github-square"></i></a>
-                <p>Follow me</p>
+        <div class="contact-container">
+            <h1>Contact</h1>
+            <div class="social">
+                <div class="item">
+                    <a href="https://www.linkedin.com/in/mateo-tambasco-375433237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <div class="item-name">Contact me</div>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/Matt122133" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+                    <div class="item-name">Follow me</div>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>Copyright &copy; 2022. <br> MTF - All Right </p>
+        <p>Copyright &copy; 2022. <br> MTF - All Right Reserved </p>
     </footer>
 </body>
 </html>
